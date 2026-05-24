@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: test-linkding_linkding-test
+      APP_PORT: 9090
+    
+  server:
+    image: sissbruecker/linkding:latest
+    user: "9090:9090"
+    init: true

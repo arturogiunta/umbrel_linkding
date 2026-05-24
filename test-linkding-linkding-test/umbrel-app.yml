@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: test linkding
+name: linkding test
+tagline: This is a test for linkding
+icon: https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/linkding-light.svg
+category: Development
+version: "1.45.0"
+port: 9090
+description: >-
+ linkding is a bookmark manager that you can host yourself.
+ It's designed be to be minimal, fast, and easy to set up using Docker.
+
+developer: linkding
+website: https://github.com/sissbruecker/linkding
+submitter: arturogiunta
+submission: https://github.com/arturogiunta/umbrel_linkding
+repo: https://github.com/arturogiunta/umbrel_linkding
+support: https://github.com/arturogiunta/umbrel_linkding/issues
+gallery:
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: "demo"
+defaultPassword: "demo"
